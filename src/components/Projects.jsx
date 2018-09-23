@@ -16,6 +16,19 @@ export default class Projects extends Component {
                 </Jumbotron>
                     <Row className='show-grid text-center'>
                         <Col xs={12} sm={4} className="projects-person-wrapper">
+                            <Image src='assets/RecipeMatchLogoRect.png' circle className='projects-profile-pic' />
+                            <h3>RecipeMatch</h3>
+                            <p>This is an app takes a photo from the gallery or camera, and it will return a list of
+                                matching recipes based on what is identified in the given picture. The user is allowed
+                                set requirements to filter out recipes and get exact recipe that they crave! The app uses
+                                Clarfai API for identifying all kinds of food in the image.
+                            </p>
+                            <Badge style={{margin:2}}>React-Native</Badge>
+                            <Badge style={{margin:2}}>Redux</Badge>
+                            <Badge style={{margin:2}}>App Development</Badge>
+                            <Badge style={{margin:2}}>AI</Badge>
+                        </Col>
+                        <Col xs={12} sm={4} className="projects-person-wrapper">
                             <Image src='assets/meowth-blue.png' circle className='projects-profile-pic' />
                             <h3>Meowth Banking Android App</h3>
                             <p>This app is banking simulator that provides a mobile interface for customers to manage their bank account.
@@ -25,15 +38,6 @@ export default class Projects extends Component {
                             <Badge style={{margin:2}}>Java</Badge>
                             <Badge style={{margin:2}}>XML</Badge>
                             <Badge style={{margin:2}}>Android App Development</Badge>
-                        </Col>
-                        <Col xs={12} sm={4} className="projects-person-wrapper">
-                            <Image src='assets/chatbot.png' circle className='projects-profile-pic' />
-                            <h3>Detrite Messenger Chatbot</h3>
-                            <p>Detrite is a chatbot that can hold a basic conversation and uses APIs to provide information about the Detroit Transit 
-                                and weather around the world.
-                            </p>
-                            <Badge style={{margin:2}}>Python</Badge>
-                            <Badge style={{margin:2}}>AI</Badge>
                         </Col>
                         <Col xs={12} sm={4} className="projects-person-wrapper">
                             <Image src='assets/stockSimulator.jpg' circle className='projects-profile-pic' />
@@ -53,7 +57,7 @@ export default class Projects extends Component {
 
                 <Grid>
                     <Row className='projects-show-grid text-center'>
-                        <Col xs={12} sm={4} smOffset={2} className="projects-person-wrapper">
+                        <Col xs={12} sm={4} className="projects-person-wrapper">
                             <Image src='assets/reactLogo.png' circle className='projects-profile-pic' />
                             <h3>My Website</h3>
                             <p>This is a single page website that you are currrently viewing is powered by React with routes to render appropriate components.
@@ -74,6 +78,15 @@ export default class Projects extends Component {
                             <Badge style={{margin:2}}>XML</Badge>
                             <Badge style={{margin:2}}>Android App Development</Badge>
                             <Badge style={{margin:2}}>Game Development</Badge>
+                        </Col>
+                        <Col xs={12} sm={4} className="projects-person-wrapper">
+                            <Image src='assets/chatbot.png' circle className='projects-profile-pic' />
+                            <h3>Detrite Messenger Chatbot</h3>
+                            <p>Detrite is a chatbot that can hold a basic conversation and uses APIs to provide information about the Detroit Transit 
+                                and weather around the world.
+                            </p>
+                            <Badge style={{margin:2}}>Python</Badge>
+                            <Badge style={{margin:2}}>AI</Badge>
                         </Col>
                     </Row>
                 </Grid>
