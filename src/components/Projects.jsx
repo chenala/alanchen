@@ -10,7 +10,7 @@ export default class Projects extends Component {
                 <Jumbotron className='projects-jumbotron'>
                     <h2>My Projects</h2>
                     <p>My Github account contains some of the projects listed below:</p>
-                    <a href="https://github.com/tychodragon" rel='noopener noreferrer' target="_blank">
+                    <a href="https://github.com/chenala" rel='noopener noreferrer' target="_blank">
                         <Button bsStyle="primary">Go to my Github</Button>
                     </a>
                 </Jumbotron>
