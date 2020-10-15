@@ -7,7 +7,7 @@ export default class About extends Component {
             <div className="about-top-div">
                 <div className='text-container'>
                     <h3 className='about-me'>About Me</h3>
-                    <p>I am in my 3rd year undergrad studying computer science at the University of Toronto.<br/>
+                    <p>I study computer science and statistics at University of Toronto.<br/>
                         Some notable courses that I have taken introduced me to concepts of software development, data structures, algorithms, databases, and web development.<br/>
                         <br/>
                         I am familiar with: Python, Java, C, C++, HTML, CSS, JavaScript, NodeJS, MongoDB, SQL, and React.<br/>
@@ -18,6 +18,11 @@ export default class About extends Component {
                         Apart from programming, I enjoy swimming, skiing, and badminton.
                     </p>
                     <h3 className='about-me'>Internships</h3>
+                    <h4>Software Engineering Intern - Ritual Technologies</h4>
+                    <p>
+                        At Ritual, I was a backend developer and worked closely with data scientists to design and implement various tools relating to automated translation services, 
+                        data processing tools, restaurant menu integrations, and notification analytics. I primarily used Java for core application development and Python for data processing.
+                    </p>
                     <h4>Software Developer Intern - Evenset Inc.</h4>
                     <p>
                         At Evenset, I collaborated with talented developers on several projects, all of which are currently being used in the health-care industry. We follow
