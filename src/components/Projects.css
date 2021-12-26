@@ -1,31 +1,40 @@
 .sidebar-section img {
-    width: 100%;
-    margin-bottom: 2em;
+  width: 100%;
+  margin-bottom: 2em;
 }
 
-.projects-jumbotron{
-    margin-top: 2em;
-    margin-bottom: 4em;
-    background-color: paleturquoise;
+.projects-jumbotron {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  background-color: #202023;
 }
 
 .projects-person-wrapper {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .projects-profile-pic {
-    width: 50%;
+  width: 50%;
 }
 
 .projects-btn-primary {
-    background-image: none;
-    border: none;
-    border-radius: 0;
-    background-color: #314159;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  background-color: #314159;
 }
 
 .projects-h3 {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
-
+.gh-button {
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}

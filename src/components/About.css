@@ -1,12 +1,12 @@
 .about-top-div {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  background-color: #202023;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 
-    padding: 20px;
+  padding: 20px;
 }
 
 .text-container {
-    width:60%;
+  width: 60%;
 }
-

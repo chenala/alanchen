@@ -8,10 +8,10 @@ export default class Projects extends Component {
             <div>
                 <Grid>
                 <Jumbotron className='projects-jumbotron'>
-                    <h2>My Projects</h2>
-                    <p>My Github account contains some of the projects listed below:</p>
+                    <h2>Projects</h2>
+                    <p>can be found on my Github:</p>
                     <a href="https://github.com/chenala" rel='noopener noreferrer' target="_blank">
-                        <Button bsStyle="primary">Go to my Github</Button>
+                        <button className="gh-button">Check out my Github</button>
                     </a>
                 </Jumbotron>
                     <Row className='show-grid text-center'>
